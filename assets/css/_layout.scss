@@ -1,0 +1,23 @@
+body {
+    font-family: $font;
+  
+    transition: all 0.5s;
+  
+    // body class="dark" tiver a classe
+    // o & significa que o elemento deve conter a classe
+    &.dark {
+      background-color: $cor-primaria;
+      color: $cor-secundaria;
+    }
+  }
+  
+  .container {
+    max-width: 1140px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    // border: 1px solid red;
+  
+  }
